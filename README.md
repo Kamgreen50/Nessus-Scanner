@@ -6,55 +6,88 @@ Configure Nessus &amp; Vulnerability Assessment Lab (Nessus Scanner)
 
 ## Introduction
 
-Here is a comprehensive tutorial on how to install and run Nessus. This tutorial covers the procedures for installing Nessus in the environment, setting it up to search for vulnerabilities, and effectively interpreting the scan findings. Nessus is an acronym for an attack point designed to identify weak points and possible threats in your system, applications, and network architecture. By proactively identifying and fixing vulnerabilities through the regular use of individual vulnerability scanning and the staffed deployment of Nessus, you can strengthen your cybersecurity posture. During my presentation, I will walk through each stage of the Nessus configuration procedure and explain how this scanner works. After completing our training, you will acquire the skills and information needed to use this potent instrument effectively.
+Here is a comprehensive tutorial on how I installed and ran Nessus. This tutorial covers the procedures for installing Nessus in the environment, setting it up to search for vulnerabilities, and effectively interpreting the scan findings. Nessus is designed to identify weak points and possible threats in systems, applications, and network architecture. I can strengthen my cybersecurity posture by proactively identifying and fixing vulnerabilities through regular vulnerability scanning and deploying Nessus. During this presentation, I will walk through each stage of the Nessus configuration procedure and explain how this scanner works. After completing this training, I will have the skills and knowledge to use this powerful tool effectively.
 
-- Let's examine the tutorial's structure and the topics that will be addressed at each stage.
+Let's examine the tutorial's structure and the topics addressed at each stage.
 
 ## Prepare for Deployment
 
-Before deploying Nessus, please make sure that you understand everything you need to know about it, including how it works with vulnerability management. Info security teams may use Nessus to identify and categorize security flaws in the entire company's network infrastructure, apps, and systems. 
+Before deploying Nessus, I understood everything about it, including how it works with vulnerability management. Info security teams can use Nessus to identify and categorize security flaws in the company's network infrastructure, apps, and systems.
   
 ### Assess System Requirements
 
-System requirements are evaluated prior to Nessus's final deployment, allowing you to quickly determine whether your infrastructure is capable of supporting this service. The size of your network, the number of assets to be examined at once, and the frequency of the scans are only a few of the numerous variables that might affect the minimal requirements for the Nessus program. Hard memory tracker Nessus, by default, needs a server or virtual machine (VM) with a specific amount of RAM, CPU, and storage space. Nessus implementation may also require initial software dependencies or other compatibility requirements to be met. By assessing the system needs in advance, you can ensure that Nessus will operate constantly at peak efficiency and identify any potential issues during deployment.
+I evaluated system requirements before Nessus's final deployment, allowing me to determine whether the infrastructure could support this service. The network size, the number of assets to be examined, and the frequency of scans are a few variables affecting the minimal requirements for Nessus. By default, Nessus needs a server or virtual machine (VM) with specific amounts of RAM, CPU, and storage space. Nessus implementation may also require initial software dependencies or other compatibility requirements to be met. By assessing the system needs in advance, I ensured Nessus would operate efficiently and identified any potential issues during deployment.
 
 ### Install Nessus
-I obtained the Nessus software from the Tenable website. The website offers software installation instructions that will walk you through installing Nessus on a server or virtual machine, if necessary after you've downloaded it. I used this link to access the software. 
+I obtained the Nessus software from the Tenable website. The website offers installation instructions that walked me through installing Nessus on a server or virtual machine. I used the link provided to access the software.
 
 - Nessus Web Interface
+<br>
 
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/58ac15e3-4e2a-49b2-9984-56d268a1ba34)
 
 ## Configuration Phase
 
-After installing Nessus, my next assignment, among many other things, is to access the web interface and configure it, create new scanning policies that will satisfy our organizational requirements, and unquestionably increase the effectiveness of vulnerability scanning by guaranteeing in-depth investigations and concurrently reducing false positives. After the previous phase, which preceded the identification of the target asset, I was eager to fine-tune the IP addresses and domain names to serve as the ransomware scan for Nessus and produce a targeted exposure to vulnerability assessment. To streamline the scanning process, I ultimately introduced sets for scans as recurring jobs and schedules that can significantly increase vulnerability assessment accuracy to guarantee regular assessments and be ahead of new hazards.
+After installing Nessus, I accessed the web interface to configure it. I created new scanning policies that met our organizational requirements, ensuring in-depth investigations and reducing false positives. I fine-tuned the IP addresses and domain names to serve as the scan targets for Nessus, producing a targeted vulnerability assessment. I set up scans as recurring jobs and schedules to streamline the scanning process to ensure regular assessments and stay ahead of new hazards.
 
 - Configure Nessus for scanning
+<br>
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/0af3dfe1-371b-4059-8acb-3de248562116)
 
 
 ## Conducting Scans and analyzing results
 
-The scanning and analysis process constitutes the second part of the transition; I examined events in real time while doing task vulnerability scans using the default parameters and designated targets. The scan findings evaluation was my favorite task since it allowed me to carefully identify the vulnerabilities and prioritize them based on secession and priority. We were able to prioritize the remediation efforts and communicate with stakeholders more effectively because of the comprehensive reports, cybersecurity scan results, and security recommendations that helped us better understand the security posture of our network.
+During the scanning and analysis process, I conducted task vulnerability scans using the default parameters and designated targets, examining events in real-time. Analyzing the scan findings was particularly rewarding, as it allowed me to identify and prioritise vulnerabilities based on severity and urgency. Comprehensive reports, scan results, and security recommendations helped us better understand our network's security posture, prioritize remediation efforts, and communicate effectively with stakeholders.
 
 - Nessus initial scan
+<br>
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/b2d2ef50-5ab7-470b-b9dd-76ab87d2c17d)
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/6fc4bd6e-8c66-480f-8614-4623e6535034)
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/7d5f6c4a-6ea0-4ff8-8873-212f8afa44eb)
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/f2d699c6-9c65-4648-9ee0-2931b26061cf)
+
 
 - Configuration of Credentials for Credential scan
+<br>
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/c4757733-c571-4950-bb42-99d062a10724)
 
 - Remote registry
+<br>
 
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/5c7220d2-7c7b-414c-b788-cc6f6dc28b5b)
 
 - I changed the status type to automatic, which allows you to connect remotely to the system registry database to perform different operations.
+<br>
 
-- User account control settings are dragged to the bottom to disable notifications from disrupting the scans being conducted.
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/d284de17-5ea5-476f-8ccb-c8b2e3031f62)
+
+- User account control settings are dragged to the bottom to prevent notifications from disrupting the scans.
+<br>
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/25574006-3515-46d1-9b00-35528ea2dea5)
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/f3cf732b-79ec-4c09-8a87-80c60d08823a)
 
 
+## Registry Editor
+I opened the registry editor, navigated to "HKEY_LOCAL_MACHINE," then to "SOFTWARE," "Microsoft," and finally to the "Windows" directory. Here, I reviewed and modified the Local Account Token Filter Policy, making exceptions for administrator accounts to bypass restrictions on remote procedure access. These improvements allowed Nessus to perform more complex system scans, increasing its capacity to find vulnerabilities.
+<br>
 
-
-For the next exercise, I open the registry editor by clicking on the "HKEY_LOCAL_MACCHINE" key, then clicking "SOFTWARE," then "Microsoft," and lastly, I get to the "Windows" directory. The Local Account Token Filter Policy is reviewed and modified here, and exceptions are made for free administrator accounts that are not subject to the restrictions on distant procedure core cognitive access. As a result, the improvements enable Nessus to perform more complex system scans, increasing its capacity to find an excessive number of vulnerabilities.
-
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/de030734-3e10-4d3d-8905-0ebf9b600ae7)
 
 - Nessus Credential and Advanced Nessus Scan
+<br>
+
+![image](https://github.com/Kamgreen50/Nessus-Scanner/assets/148400787/2f19c35f-d5e9-4001-b95f-1be8c4b3b6f5)
+
 
 ## Conclusion
-I successfully deployed Nessus and obtained the appropriate cues and inputs that enabled the identification of network vulnerabilities and insecurities through meticulous coordination, astute design, and thorough inspection. Custom scanning policies, asset personalization, and automated scanning schedules have all greatly aided in our ability to identify, rank, and promptly address any security threats that may be lurking around the corner. I managed to convey results clearly and prioritize remediation based on the severity of the security incident by using Nessus's report creation feature. In general, Nessus will strengthen the defense, improve the security of communications, and shield data systems from online attacks.
+I successfully deployed Nessus and obtained the appropriate cues and inputs to identify network vulnerabilities through meticulous coordination, astute design, and thorough inspection. Custom scanning policies, asset personalization, and automated scanning schedules greatly aided in identifying, ranking, and addressing security threats promptly. Using Nessus's report creation feature, I conveyed results clearly and prioritized remediation based on the severity of the security incident. Nessus has strengthened our defences, improved communication security, and shielded data systems from online attacks.
 
 ### HappyLearning
